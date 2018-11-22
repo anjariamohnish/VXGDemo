@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#0080ff">
+  <!-- Tell the browser it's a PWA -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!-- Tell iOS it's a PWA -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+
+  <meta name="msapplication-TileColor" content="#0080ff">
+  <meta name="msapplication-TileImage" content="assets/icons/mstile-150x150.png">
+  <meta name="msapplication-config" content="assets/icons/browserconfig.xml">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/icons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon-180x180.png">
+
+
+  <link rel="mask-icon" href="assets/icons/ios-launchimage.png" color="#0080ff">
+
+  <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+
+  <link rel="stylesheet" type="text/css" href="vxg/videojs-5.18.3.min.css">
+  <script type="text/javascript" src="vxg/videojs-5.18.3.min.js"></script>
+  <script type="text/javascript" src="vxg/videojs-contrib-hls.min.js"></script>
+  <script type="text/javascript" src="vxg/moment.min.js"></script>
+  <script type="text/javascript" src="vxg/moment-timezone-with-data-2012-2022.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="vxg/CloudSDK.min.css">
+  <script type="text/javascript" src="vxg/CloudSDK.min.js"></script>
+  <script type="text/javascript" src="vxg/webrtc-adapter-latest.js"></script>
+  <script type="text/javascript">
+    CloudSDK.flashswf = "vxg/swf/video-js-by-vxg-buff200.swf";
+  </script>
+  <script type="text/javascript">
+  window.CloudPlayerSDK=CloudPlayerSDK
+  </script>
+
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>React App</title>
+</head>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+
+</html>
