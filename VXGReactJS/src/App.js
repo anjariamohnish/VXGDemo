@@ -12,7 +12,7 @@ class App extends Component {
         calendar: true
       });
 
-      var access_token = 'eyJ0b2tlbiI6InNoYXJlLmV5SnphU0k2SURjeU5USTRmUS41YmY1MjFlMHQxMmNmZjc4MC4yMm9ITHpfX182WTBvbFdlZTBxWGtLaW1rR1UiLCJjYW1pZCI6MTcyMTUwLCJhY2Nlc3MiOiJ3YXRjaCJ9';
+      var access_token = 'eyJ0b2tlbiI6InNoYXJlLmV5SnphU0k2SURjeU56VTFmUS41YmY2NGMyOHQxMmNmZjc4MC5iaGlyLWpEdGZ6N1ZEaFJ4VFA2NFNxQjN2QmMiLCJjYW1pZCI6MTcyMjY1LCJhY2Nlc3MiOiJ3YXRjaCJ9';
       // eslint-disable-next-line no-undef
       player.setSource(access_token);
       // eslint-disable-next-line no-undef
